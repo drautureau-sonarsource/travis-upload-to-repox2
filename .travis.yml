@@ -17,7 +17,7 @@ before_cache:
 notifications:
   email: false
   webhooks:
-    - secure: "TODO"
+    - secure: "jtMbZ58vAoxMeo4Ddm1J/42VWW+Y6JsGEUt1V4AdaBus/jMz3iApsQ4kyZduA2GxbrPwQnWrmZBf05iJAZQh2blFi1pZ/gKqLghBh/RaGd1dLHYi3Kcz7QQ8m0sYjd+PctoBN+drH07dsoQnKVsR2Pz3KnY09o84k2W6sq0hZ5zCbN10j8RXhBPylTbvVsGREs4lIeX6XFKmfLg1idF6XMr1qUeauCK3PgeeI33bkBjDRanP2EVp+Ot0cCxDHYpVXUyqBPwNnugsZNNhZ/XJXiNKOjaRUZGsmPNvDgAhCnyJQii45Uts+OE9jhklkBeYL5rJaFKqpWOdvaoQf9/+UVNRWnSFJ23qM3LV1KV0p6av6+fZGKcYfmL0xytPpWnpmr99Y4jMrBVVCxaCKW3LDMZ3ZxU/ud/kwww06oph9+R/GmQtADCAkPnfFfFdxB+UGoDftZVhYy8Vjmcn/JWyvTcVr9kKfmM4Ed4sZTdyJbH5gmAdTfvYlLgwQ47g0gRDajqrgU0E4sXgi2nyK+mqQriX6crDRu234UcTutZIHD4wdkFs3AWYTOoSVopQPT/O2U/f+42KEhQ9toGjSgNnHuJFvNNvdaHGkZPtkpPWyiCV52nsAjOAY3IJEl5mcQIHhGLcAZkWfaIKr4yG49w3a1UVX2IyaCg+ZYIbUqJ4pQg="
   on_success: always
   on_failure: never
   on_start: never
