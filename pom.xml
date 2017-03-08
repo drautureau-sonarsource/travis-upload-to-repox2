@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.sonarsource.parent</groupId>
+    <artifactId>parent</artifactId>
+    <version>37</version>
+  </parent>
+
+  <groupId>com.github.drautureau-sonarsource</groupId>
+  <artifactId>travis-upload-to-repox2</artifactId>
+  <version>1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <inceptionYear>2017</inceptionYear>
+
+  <properties>
+    <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
+    <gitRepositoryName>travis-upload-to-repox2</gitRepositoryName>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>build-helper-maven-plugin</artifactId>
+        <version>1.12</version>
+        <executions>
+          <execution>
+            <id>attach-artifacts</id>
+            <phase>package</phase>
+            <goals>
+              <goal>attach-artifact</goal>
+            </goals>
+            <configuration>
+              <artifacts>
+                <artifact>
+                  <file>sonar-application-6.3-RC4.zip</file>
+                  <type>zip</type>
+                  <classifier>test</classifier>
+                </artifact> 
+              </artifacts>
+            </configuration>
+          </execution>
+        </executions>
+        </plugin>
+    </plugins>
+  </build>
+
+</project>
