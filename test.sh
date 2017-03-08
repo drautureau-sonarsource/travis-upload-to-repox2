@@ -7,3 +7,4 @@ mvn versions:set -DgenerateBackupPoms=false -DnewVersion=$PROJECT_VERSION
 
 #upload SQ
 mvn deploy -Pdeploy-sonarsource -B -e -V
+
