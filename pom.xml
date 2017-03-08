@@ -35,7 +35,7 @@
             <configuration>
               <artifacts>
                 <artifact>
-                  <file>sonar-application-6.3-RC4.zip</file>
+                  <file>sonarqube-6.3-RC4.zip</file>
                   <type>zip</type>
                   <classifier>test</classifier>
                 </artifact> 
